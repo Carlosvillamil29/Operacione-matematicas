@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background: url(../IMG/artificial-intelligence01_web.jpg);
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+#contenedor h1{
+    color: rgb(36, 100, 10);
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+#contenedor p{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#contenedor {
+    width: 80%;
+    padding: 10px 120px;
+    background: #ebe6e69d;
+    margin: 0 auto;
+
+}
+/* Estilos de los botones estado activo */
+#contenedor button{
+    pad: 8px 20px;
+    background: transparent;
+    border: 2px solid rgba(30, 117, 8, 0.952);
+    color: rgb(233, 16, 16);
+    font-size: 30px;
+    cursor: pointer;
+    transition: .3s;
+    margin: 10px 30px;
+
+
+}
+
+/* Estilos de los botones estado hover */
+#contenedor button:hover{
+    background: black;
+    padding: 8px 40px;
+}
